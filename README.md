@@ -1,6 +1,6 @@
 ## A shiny app for plotting your bedgraph genomic profiles.
 
-[This application](https://thenotoriousmbg.shinyapps.io/te_profiles/) works with any bedgraph file that you can either upload from your local computer or through a URL. Simply load your bedgraph file, and within a few seconds, the app generates an overview plot. You can either use this plot as is or further refine your analysis by selecting a specific sequence through a dropdown menu. The app allows you to choose between PNG or PDF formats for your plot output.
+[This application](https://thenotoriousmbg.shinyapps.io/te_profiles/) works with any bedgraph file that you can either upload from your local computer or through a URL. Simply load your bedgraph file, and within a few seconds, the app generates an overview plot. You can either use this plot as is or select a specific sequence through a dropdown menu. The app allows you to choose between PNG or PDF formats for your plot output.
 
 For the best experience, it is recommended to:
 - Ensure coverage of all chromosomes. This means that for stretches with no signal, the fourth column should be set to 0. To avoid inflating the file size with empty ranges, it's efficient to consolidate consecutive ranges with the same signal into a single range. For example:
