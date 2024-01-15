@@ -1,0 +1,9 @@
+name: te_profiles
+title:
+username:
+account: thenotoriousmbg
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10908000
+bundleId: 8137386
+url: https://thenotoriousmbg.shinyapps.io/te_profiles/
